@@ -6,7 +6,7 @@ ProRecorder is an iOS app designed to help users create and manage project-based
 
 - Create and manage time-tracking projects
 - Add detailed descriptions for each session
-- Modify or manually add sessions
+- Modify or add sessions
 - Integrated calendar view with daily/weekly overviews
 - Export sessions to Apple Calendar
 - Summary and statistics view with interactive charts
@@ -20,3 +20,14 @@ ProRecorder is an iOS app designed to help users create and manage project-based
 - EventKit – For Apple Calendar integration
 - Timer – For precise session tracking and management
 - XCTest – For unit testing and ensuring code reliability
+
+📸📱 Screenshots
+ ![Screenshot1](https://github.com/p-7on/ProRecorder_iOSApp/blob/5004621f84d6d6d4aeb25e08180dab365bccc71f/Screenshots/recording.PNG?raw=true) ![Screenshot2](https://github.com/p-7on/ProRecorder_iOSApp/blob/5004621f84d6d6d4aeb25e08180dab365bccc71f/Screenshots/recording_projects.PNG?raw=true) ![Screenshot3](https://github.com/p-7on/ProRecorder_iOSApp/blob/5004621f84d6d6d4aeb25e08180dab365bccc71f/Screenshots/add_project.PNG?raw=true)
+ 
+![Screenshot4](https://github.com/p-7on/ProRecorder_iOSApp/blob/5004621f84d6d6d4aeb25e08180dab365bccc71f/Screenshots/save_recording.PNG?raw=true) ![Screenshot5](https://github.com/p-7on/ProRecorder_iOSApp/blob/5004621f84d6d6d4aeb25e08180dab365bccc71f/Screenshots/calendar_overview.PNG?raw=true) ![Screenshot6](https://github.com/p-7on/ProRecorder_iOSApp/blob/5004621f84d6d6d4aeb25e08180dab365bccc71f/Screenshots/export_eventkit.PNG?raw=true) 
+
+![Screenshot7](https://github.com/p-7on/ProRecorder_iOSApp/blob/5004621f84d6d6d4aeb25e08180dab365bccc71f/Screenshots/add_new_project.PNG?raw=true) ![Screenshot8](https://github.com/p-7on/ProRecorder_iOSApp/blob/5004621f84d6d6d4aeb25e08180dab365bccc71f/Screenshots/recording_detail.PNG?raw=true) ![Screenshot9](https://github.com/p-7on/ProRecorder_iOSApp/blob/5004621f84d6d6d4aeb25e08180dab365bccc71f/Screenshots/statistics_overview.PNG?raw=true)
+
+![Screenshot10](https://github.com/p-7on/ProRecorder_iOSApp/blob/5004621f84d6d6d4aeb25e08180dab365bccc71f/Screenshots/statistics_details1.PNG?raw=true) ![Screenshot11](https://github.com/p-7on/ProRecorder_iOSApp/blob/5004621f84d6d6d4aeb25e08180dab365bccc71f/Screenshots/statistics_details2.PNG?raw=true)
+
+
