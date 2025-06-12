@@ -19,3 +19,4 @@ ProRecorder is an iOS app designed to help users create and manage project-based
 - CoreData – For local data persistence and offline access
 - EventKit – For Apple Calendar integration
 - Timer – For precise session tracking and management
+- XCTest – For unit testing and ensuring code reliability
