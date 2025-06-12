@@ -16,5 +16,6 @@ ProRecorder is an iOS app designed to help users create and manage project-based
 
 - SwiftUI – For building a modern, responsive UI
 - MVVM architecture – For separating business logic and UI code
+- CoreData – For local data persistence and offline access
 - EventKit – For Apple Calendar integration
 - Timer – For precise session tracking and management
