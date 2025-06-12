@@ -22,12 +22,17 @@ ProRecorder is an iOS app designed to help users create and manage project-based
 - XCTest – For unit testing and ensuring code reliability
 
 📸📱 Screenshots
- ![Screenshot1](https://github.com/p-7on/ProRecorder_iOSApp/blob/5004621f84d6d6d4aeb25e08180dab365bccc71f/Screenshots/recording.PNG?raw=true) ![Screenshot2](https://github.com/p-7on/ProRecorder_iOSApp/blob/5004621f84d6d6d4aeb25e08180dab365bccc71f/Screenshots/recording_projects.PNG?raw=true) ![Screenshot3](https://github.com/p-7on/ProRecorder_iOSApp/blob/5004621f84d6d6d4aeb25e08180dab365bccc71f/Screenshots/add_project.PNG?raw=true)
- 
-![Screenshot4](https://github.com/p-7on/ProRecorder_iOSApp/blob/5004621f84d6d6d4aeb25e08180dab365bccc71f/Screenshots/save_recording.PNG?raw=true) ![Screenshot5](https://github.com/p-7on/ProRecorder_iOSApp/blob/5004621f84d6d6d4aeb25e08180dab365bccc71f/Screenshots/calendar_overview.PNG?raw=true) ![Screenshot6](https://github.com/p-7on/ProRecorder_iOSApp/blob/5004621f84d6d6d4aeb25e08180dab365bccc71f/Screenshots/export_eventkit.PNG?raw=true) 
 
-![Screenshot7](https://github.com/p-7on/ProRecorder_iOSApp/blob/5004621f84d6d6d4aeb25e08180dab365bccc71f/Screenshots/add_new_project.PNG?raw=true) ![Screenshot8](https://github.com/p-7on/ProRecorder_iOSApp/blob/5004621f84d6d6d4aeb25e08180dab365bccc71f/Screenshots/recording_detail.PNG?raw=true) ![Screenshot9](https://github.com/p-7on/ProRecorder_iOSApp/blob/5004621f84d6d6d4aeb25e08180dab365bccc71f/Screenshots/statistics_overview.PNG?raw=true)
+![Screenshot1](https://github.com/p-7on/ProRecorder_iOSApp/blob/34bbee0848fbccdb2d1a2b8fde81c250457a8727/Screenshots/add_project.PNG?raw=true) ![Screenshot2](https://github.com/p-7on/ProRecorder_iOSApp/blob/34bbee0848fbccdb2d1a2b8fde81c250457a8727/Screenshots/recording_projects.PNG?raw=true) 
 
-![Screenshot10](https://github.com/p-7on/ProRecorder_iOSApp/blob/5004621f84d6d6d4aeb25e08180dab365bccc71f/Screenshots/statistics_details1.PNG?raw=true) ![Screenshot11](https://github.com/p-7on/ProRecorder_iOSApp/blob/5004621f84d6d6d4aeb25e08180dab365bccc71f/Screenshots/statistics_details2.PNG?raw=true)
+![Screenshot3](https://github.com/p-7on/ProRecorder_iOSApp/blob/34bbee0848fbccdb2d1a2b8fde81c250457a8727/Screenshots/add_project.PNG?raw=true) ![Screenshot4](https://github.com/p-7on/ProRecorder_iOSApp/blob/34bbee0848fbccdb2d1a2b8fde81c250457a8727/Screenshots/save_recording.PNG?raw=true) 
+
+![Screenshot5](https://github.com/p-7on/ProRecorder_iOSApp/blob/34bbee0848fbccdb2d1a2b8fde81c250457a8727/Screenshots/calendar_overview.PNG?raw=true) ![Screenshot6](https://github.com/p-7on/ProRecorder_iOSApp/blob/34bbee0848fbccdb2d1a2b8fde81c250457a8727/Screenshots/export_eventkit.PNG?raw=true) 
+
+![Screenshot7](https://github.com/p-7on/ProRecorder_iOSApp/blob/34bbee0848fbccdb2d1a2b8fde81c250457a8727/Screenshots/add_new_project.PNG?raw=true) ![Screenshot8](https://github.com/p-7on/ProRecorder_iOSApp/blob/34bbee0848fbccdb2d1a2b8fde81c250457a8727/Screenshots/recording_detail.PNG?raw=true) 
+
+![Screenshot9](https://github.com/p-7on/ProRecorder_iOSApp/blob/34bbee0848fbccdb2d1a2b8fde81c250457a8727/Screenshots/statistics_overview.PNG?raw=true) ![Screenshot10](https://github.com/p-7on/ProRecorder_iOSApp/blob/34bbee0848fbccdb2d1a2b8fde81c250457a8727/Screenshots/statistics_details1.PNG?raw=true) 
+
+![Screenshot11](https://github.com/p-7on/ProRecorder_iOSApp/blob/34bbee0848fbccdb2d1a2b8fde81c250457a8727/Screenshots/statistics_details2.PNG?raw=true)
 
 
