@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F42B2BBB287ED40200776096 /* ProRecorderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42B2BBA287ED40200776096 /* ProRecorderApp.swift */; };
+		F42B2BBD287ED40200776096 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42B2BBC287ED40200776096 /* ProjectsView.swift */; };
+		F42B2BBF287ED40300776096 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F42B2BBE287ED40300776096 /* Assets.xcassets */; };
+		F42B2BC2287ED40300776096 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F42B2BC1287ED40300776096 /* Preview Assets.xcassets */; };
+		F42B2BC4287ED40300776096 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42B2BC3287ED40300776096 /* Persistence.swift */; };
+		F42B2BC7287ED40400776096 /* ProRecorder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F42B2BC5287ED40400776096 /* ProRecorder.xcdatamodeld */; };
+		F42B2BD1287ED40400776096 /* ProRecorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42B2BD0287ED40400776096 /* ProRecorderTests.swift */; };
+		F42B2BDB287ED40400776096 /* ProRecorderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42B2BDA287ED40400776096 /* ProRecorderUITests.swift */; };
+		F42B2BDD287ED40400776096 /* ProRecorderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42B2BDC287ED40400776096 /* ProRecorderUITestsLaunchTests.swift */; };
+		F42B2BEC287ED5C700776096 /* ProjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42B2BEB287ED5C700776096 /* ProjectViewModel.swift */; };
+		F42B2BF0287EEDD200776096 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42B2BEF287EEDD200776096 /* CalendarView.swift */; };
+		F42B2BF2287EEDE400776096 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42B2BF1287EEDE400776096 /* StatisticsView.swift */; };
+		F42B2BF4287F083800776096 /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42B2BF3287F083800776096 /* TimerManager.swift */; };
+		F43BCC5428842755007FB99B /* VCEventKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43BCC5328842755007FB99B /* VCEventKit.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F42B2BCD287ED40400776096 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F42B2BAF287ED40200776096 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F42B2BB6287ED40200776096;
+			remoteInfo = ProRecorder;
+		};
+		F42B2BD7287ED40400776096 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F42B2BAF287ED40200776096 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F42B2BB6287ED40200776096;
+			remoteInfo = ProRecorder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F402D5D82884BF5F00EB1C8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F42B2BB7287ED40200776096 /* ProRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42B2BBA287ED40200776096 /* ProRecorderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProRecorderApp.swift; sourceTree = "<group>"; };
+		F42B2BBC287ED40200776096 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
+		F42B2BBE287ED40300776096 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F42B2BC1287ED40300776096 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F42B2BC3287ED40300776096 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		F42B2BC6287ED40400776096 /* ProRecorder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProRecorder.xcdatamodel; sourceTree = "<group>"; };
+		F42B2BCC287ED40400776096 /* ProRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProRecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42B2BD0287ED40400776096 /* ProRecorderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProRecorderTests.swift; sourceTree = "<group>"; };
+		F42B2BD6287ED40400776096 /* ProRecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProRecorderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42B2BDA287ED40400776096 /* ProRecorderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProRecorderUITests.swift; sourceTree = "<group>"; };
+		F42B2BDC287ED40400776096 /* ProRecorderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProRecorderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F42B2BEB287ED5C700776096 /* ProjectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectViewModel.swift; sourceTree = "<group>"; };
+		F42B2BEF287EEDD200776096 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		F42B2BF1287EEDE400776096 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		F42B2BF3287F083800776096 /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
+		F43BCC5328842755007FB99B /* VCEventKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCEventKit.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F42B2BB4287ED40200776096 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42B2BC9287ED40400776096 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42B2BD3287ED40400776096 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F42B2BAE287ED40200776096 = {
+			isa = PBXGroup;
+			children = (
+				F42B2BB9287ED40200776096 /* ProRecorder */,
+				F42B2BCF287ED40400776096 /* ProRecorderTests */,
+				F42B2BD9287ED40400776096 /* ProRecorderUITests */,
+				F42B2BB8287ED40200776096 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F42B2BB8287ED40200776096 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F42B2BB7287ED40200776096 /* ProRecorder.app */,
+				F42B2BCC287ED40400776096 /* ProRecorderTests.xctest */,
+				F42B2BD6287ED40400776096 /* ProRecorderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F42B2BB9287ED40200776096 /* ProRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				F402D5D82884BF5F00EB1C8C /* Info.plist */,
+				F42B2BBA287ED40200776096 /* ProRecorderApp.swift */,
+				F42B2BEE287EECF300776096 /* CoreData */,
+				F42B2BED287EECDD00776096 /* Models */,
+				F42B2BEA287ED5B100776096 /* ViewModel */,
+				F42B2BE9287ED5A200776096 /* Views */,
+				F42B2BBE287ED40300776096 /* Assets.xcassets */,
+				F42B2BC0287ED40300776096 /* Preview Content */,
+			);
+			path = ProRecorder;
+			sourceTree = "<group>";
+		};
+		F42B2BC0287ED40300776096 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F42B2BC1287ED40300776096 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F42B2BCF287ED40400776096 /* ProRecorderTests */ = {
+			isa = PBXGroup;
+			children = (
+				F42B2BD0287ED40400776096 /* ProRecorderTests.swift */,
+			);
+			path = ProRecorderTests;
+			sourceTree = "<group>";
+		};
+		F42B2BD9287ED40400776096 /* ProRecorderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F42B2BDA287ED40400776096 /* ProRecorderUITests.swift */,
+				F42B2BDC287ED40400776096 /* ProRecorderUITestsLaunchTests.swift */,
+			);
+			path = ProRecorderUITests;
+			sourceTree = "<group>";
+		};
+		F42B2BE9287ED5A200776096 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F42B2BBC287ED40200776096 /* ProjectsView.swift */,
+				F42B2BEF287EEDD200776096 /* CalendarView.swift */,
+				F42B2BF1287EEDE400776096 /* StatisticsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F42B2BEA287ED5B100776096 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F42B2BEB287ED5C700776096 /* ProjectViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F42B2BED287EECDD00776096 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F42B2BF3287F083800776096 /* TimerManager.swift */,
+				F43BCC5328842755007FB99B /* VCEventKit.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F42B2BEE287EECF300776096 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				F42B2BC5287ED40400776096 /* ProRecorder.xcdatamodeld */,
+				F42B2BC3287ED40300776096 /* Persistence.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F42B2BB6287ED40200776096 /* ProRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F42B2BE0287ED40400776096 /* Build configuration list for PBXNativeTarget "ProRecorder" */;
+			buildPhases = (
+				F42B2BB3287ED40200776096 /* Sources */,
+				F42B2BB4287ED40200776096 /* Frameworks */,
+				F42B2BB5287ED40200776096 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProRecorder;
+			productName = ProRecorder;
+			productReference = F42B2BB7287ED40200776096 /* ProRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F42B2BCB287ED40400776096 /* ProRecorderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F42B2BE3287ED40400776096 /* Build configuration list for PBXNativeTarget "ProRecorderTests" */;
+			buildPhases = (
+				F42B2BC8287ED40400776096 /* Sources */,
+				F42B2BC9287ED40400776096 /* Frameworks */,
+				F42B2BCA287ED40400776096 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F42B2BCE287ED40400776096 /* PBXTargetDependency */,
+			);
+			name = ProRecorderTests;
+			productName = ProRecorderTests;
+			productReference = F42B2BCC287ED40400776096 /* ProRecorderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F42B2BD5287ED40400776096 /* ProRecorderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F42B2BE6287ED40400776096 /* Build configuration list for PBXNativeTarget "ProRecorderUITests" */;
+			buildPhases = (
+				F42B2BD2287ED40400776096 /* Sources */,
+				F42B2BD3287ED40400776096 /* Frameworks */,
+				F42B2BD4287ED40400776096 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F42B2BD8287ED40400776096 /* PBXTargetDependency */,
+			);
+			name = ProRecorderUITests;
+			productName = ProRecorderUITests;
+			productReference = F42B2BD6287ED40400776096 /* ProRecorderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F42B2BAF287ED40200776096 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					F42B2BB6287ED40200776096 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					F42B2BCB287ED40400776096 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = F42B2BB6287ED40200776096;
+					};
+					F42B2BD5287ED40400776096 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = F42B2BB6287ED40200776096;
+					};
+				};
+			};
+			buildConfigurationList = F42B2BB2287ED40200776096 /* Build configuration list for PBXProject "ProRecorder" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F42B2BAE287ED40200776096;
+			productRefGroup = F42B2BB8287ED40200776096 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F42B2BB6287ED40200776096 /* ProRecorder */,
+				F42B2BCB287ED40400776096 /* ProRecorderTests */,
+				F42B2BD5287ED40400776096 /* ProRecorderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F42B2BB5287ED40200776096 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42B2BC2287ED40300776096 /* Preview Assets.xcassets in Resources */,
+				F42B2BBF287ED40300776096 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42B2BCA287ED40400776096 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42B2BD4287ED40400776096 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F42B2BB3287ED40200776096 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42B2BC4287ED40300776096 /* Persistence.swift in Sources */,
+				F42B2BF4287F083800776096 /* TimerManager.swift in Sources */,
+				F42B2BBD287ED40200776096 /* ProjectsView.swift in Sources */,
+				F42B2BF0287EEDD200776096 /* CalendarView.swift in Sources */,
+				F42B2BF2287EEDE400776096 /* StatisticsView.swift in Sources */,
+				F42B2BBB287ED40200776096 /* ProRecorderApp.swift in Sources */,
+				F42B2BC7287ED40400776096 /* ProRecorder.xcdatamodeld in Sources */,
+				F43BCC5428842755007FB99B /* VCEventKit.swift in Sources */,
+				F42B2BEC287ED5C700776096 /* ProjectViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42B2BC8287ED40400776096 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42B2BD1287ED40400776096 /* ProRecorderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42B2BD2287ED40400776096 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42B2BDD287ED40400776096 /* ProRecorderUITestsLaunchTests.swift in Sources */,
+				F42B2BDB287ED40400776096 /* ProRecorderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F42B2BCE287ED40400776096 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F42B2BB6287ED40200776096 /* ProRecorder */;
+			targetProxy = F42B2BCD287ED40400776096 /* PBXContainerItemProxy */;
+		};
+		F42B2BD8287ED40400776096 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F42B2BB6287ED40200776096 /* ProRecorder */;
+			targetProxy = F42B2BD7287ED40400776096 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F42B2BDE287ED40400776096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F42B2BDF287ED40400776096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F42B2BE1287ED40400776096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ProRecorder/Preview Content\"";
+				DEVELOPMENT_TEAM = 587B4QS44A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ProRecorder/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Allow to access to calendar";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "Allow to access to reminder";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.puchner.ProRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F42B2BE2287ED40400776096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ProRecorder/Preview Content\"";
+				DEVELOPMENT_TEAM = 587B4QS44A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ProRecorder/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Allow to access to calendar";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "Allow to access to reminder";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.puchner.ProRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F42B2BE4287ED40400776096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 587B4QS44A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.puchner.ProRecorderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProRecorder.app/ProRecorder";
+			};
+			name = Debug;
+		};
+		F42B2BE5287ED40400776096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 587B4QS44A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.puchner.ProRecorderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProRecorder.app/ProRecorder";
+			};
+			name = Release;
+		};
+		F42B2BE7287ED40400776096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 587B4QS44A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.puchner.ProRecorderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProRecorder;
+			};
+			name = Debug;
+		};
+		F42B2BE8287ED40400776096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 587B4QS44A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.puchner.ProRecorderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProRecorder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F42B2BB2287ED40200776096 /* Build configuration list for PBXProject "ProRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42B2BDE287ED40400776096 /* Debug */,
+				F42B2BDF287ED40400776096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F42B2BE0287ED40400776096 /* Build configuration list for PBXNativeTarget "ProRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42B2BE1287ED40400776096 /* Debug */,
+				F42B2BE2287ED40400776096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F42B2BE3287ED40400776096 /* Build configuration list for PBXNativeTarget "ProRecorderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42B2BE4287ED40400776096 /* Debug */,
+				F42B2BE5287ED40400776096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F42B2BE6287ED40400776096 /* Build configuration list for PBXNativeTarget "ProRecorderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42B2BE7287ED40400776096 /* Debug */,
+				F42B2BE8287ED40400776096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F42B2BC5287ED40400776096 /* ProRecorder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F42B2BC6287ED40400776096 /* ProRecorder.xcdatamodel */,
+			);
+			currentVersion = F42B2BC6287ED40400776096 /* ProRecorder.xcdatamodel */;
+			path = ProRecorder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F42B2BAF287ED40200776096 /* Project object */;
+}
